@@ -70,11 +70,3 @@ FORCE_PIC = PICS[1]
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@TDBotDev
 # Ask Doubt on telegram https://t.me/TDBotDev
 #========================================================================
-caption = CUSTOM_FILE_CAPTION.format(file_name=file_name)
-
-await bot.send_cached_media(
-    chat_id=message.chat.id,
-    file_id=file_id,
-    caption=f"<b>{file_name}</b>",
-    parse_mode="HTML"
-)
