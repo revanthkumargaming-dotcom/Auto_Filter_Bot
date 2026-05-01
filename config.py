@@ -10,12 +10,12 @@ from dotenv import load_dotenv
 # config.py
 load_dotenv()
 
-API_ID = int(os.environ.get("API_ID", ))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID",35915041 ))
+API_HASH = os.environ.get("API_HASH", "011fabdce4a5547ce2e56533862445ad")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8782860547:AAHtMC2fzndCPIEdJmbxoeKs8lAEOQNPC3s")
 
 # Search Settings
-DB_CHANNEL_ID = int(os.environ.get("DB_CHANNEL_ID", -100))
+DB_CHANNEL_ID = int(os.environ.get("DB_CHANNEL_ID", -1003927497138))
 START_TEXT = os.environ.get("START_TEXT", "🚀 Welcome to CineVerse Ultra\n\n🎬 Movies • Series • Anime • Episodes — All in One Place\n⚡ Lightning Fast Search with Smart Auto Filters\n🧠 Auto Detect Language • Quality • Seasons\n\n📂 Continue Watching • 🔥 Trending • ▶️ One Click Play\n\n🔍 Just send any name (movie / series / file) to start exploring")
 MAX_RESULTS = int(os.environ.get("MAX_RESULTS", 10))
 
@@ -24,22 +24,22 @@ HELP_TEXT = os.environ.get("HELP_TEXT", "📖 **Help Menu**\n\n1. Send any movie
 ABOUT_TEXT = os.environ.get("ABOUT_TEXT", "❄️ **About This Bot**\n\nThis is a high-speed file storage and search bot for CineVerse users. It indexes thousands of files and provides them with minimal delay.\n\nDeveloper: [ @TDBotDev ]")
 
 # Database Settings
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://tdanimehub_db_user:cPdMT253KSZpE11Z@helper.wallqjf.mongodb.net/?retryWrites=true&w=majority&appName=Helper")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://rupamedical:dQv9oKG7QK93BkIh@james.oufkybu.mongodb.net/?appName=james")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "autofilebot")
 COLLECTION_NAME = "files"
 
 # Optional settings
-OWNER_ID = int(os.environ.get("OWNER_ID", 1573111356))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "8475661555").split(",") if x]  # multiple admins allowed ("8475661555","8475661555")
+OWNER_ID = int(os.environ.get("OWNER_ID",6334669810 ))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "6334669810").split(",") if x]  # multiple admins allowed ("8475661555","8475661555")
 
 # Force Subscribe Settings
 # Updated to -1002497059972 as per user request
-FORCE_SUB_CHANNELS = [int(x) for x in os.environ.get("FORCE_SUB_CHANNELS", "-1003511440278").split(",") if x] # multiple force sub allowed ("-1003511440278","-1003511440278")
+FORCE_SUB_CHANNELS = [int(x) for x in os.environ.get("FORCE_SUB_CHANNELS", "-1001998560825").split(",") if x] # multiple force sub allowed ("-1003511440278","-1003511440278")
 ADMIN_IDS = ADMINS + [OWNER_ID]
 FORCE_SUB_TEXT = os.environ.get("FORCE_SUB_TEXT", "📥 **Please join our channels to use this bot!**\n\nDue to high server load, only subscribers can search files.")
 
 # Updates Link
-UPDATES = os.environ.get("UPDATES", "https://t.me/Team_TD_Links")
+UPDATES = os.environ.get("UPDATES", "https://t.me/TeluguAnimeZone")
 
 # Auto-Delete Settings
 AUTO_DELETE_TIME = os.environ.get("AUTO_DELETE_TIME", "30s") # Format: 30s, 1m, 1h, 1d or '0' to disable
