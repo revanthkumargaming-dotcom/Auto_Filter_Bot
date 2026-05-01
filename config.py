@@ -70,3 +70,4 @@ FORCE_PIC = PICS[1]
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@TDBotDev
 # Ask Doubt on telegram https://t.me/TDBotDev
 #========================================================================
+CUSTOM_FILE_CAPTION = "<b>{file_name}</b>"
