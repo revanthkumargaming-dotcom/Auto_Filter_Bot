@@ -55,7 +55,13 @@ PICS = [
     "https://ibb.co/DDRzKfv5",
     "https://ibb.co/Y7ds8xGg",
     "https://ibb.co/0jY0HHND",
-    "https://ibb.co/Z1kCz73X"
+    "https://ibb.co/Z1kCz73X",
+    "https://ibb.co/xKzgJLtV",
+    "https://ibb.co/CyfyTFM",
+    "https://ibb.co/HTkWCLCd",
+    "https://ibb.co/LXTLvHwT",
+    "https://ibb.co/gFtsKjK2",
+    
 ]
 
 def get_random_pic():
